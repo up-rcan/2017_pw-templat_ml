@@ -24,6 +24,7 @@
   </tr>
 </table>
 <!-- APPEL HEADERS -->
+<%@ include view='Bloc_all_header_Kalidea' %>
 <!-- FIN APPEL HEADERS -->
 <!-- HERO SECTION -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -241,7 +242,110 @@
 </table>
 <!-- FIN PRODUCT GRID SECTION -->
 <!-- APPEL FOOTER -->
-<%@ include view='Bloc_all_footer_Kalidea' %>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#ffffff" align="center"><table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tr >
+          <td style="padding:20px 0px 20px 0px;" class="section-padding">
+             <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+              <tr>
+                <td><!-- BLOC REASSURANCE -->
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr >
+                      <td valign="top" style="padding-top:15px; padding-bottom:5px; border-top: 1px solid #cccccc;" class="mobile-wrapper">
+                       <!-- 1erCOLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="22%" align="left" class="responsive-table">
+                          <tr>
+                            <td style="padding:0px 0 10px 0;"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr>
+                                  <td align="center" width="100%" style="font-size:0px;padding:10px 0 0 0;"><img class="picto" src="http://cdn.kalidea.com/image/e-mailing/test/footer_picto_label.jpg" width="40" border="0" alt="Service Kalidea"></td>
+                                </tr>
+                              </table>
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr align="center" style="font-size:0px;">
+                                  <td align="center" width="" style="color:#3c3c3c;font-size:11px;font-family:arial;padding:10px 0 0 0;" valign="middle" class="text-align:center"><span class="text14" style="text-transform:uppercase;">Billetterie labellisée </span> <br>
+                                    <span style="font-size:10px; color:#858585;text-transform:uppercase;" class="text14">Iso 9001</span></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table>
+                        <!-- 2eCOLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="26%" align="left" class="responsive-table">
+                          <tr>
+                            <td style="padding:0px 0 10px 0;"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr>
+                                  <td align="center" width="100%" style="font-size:0px;padding:10px 0 0 0;"><img class="picto" src="http://cdn.kalidea.com/image/e-mailing/test/footer_picto_secu.jpg" alt="Avantages" width="40" border="0"></td>
+                                </tr>
+                              </table>
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr align="center" style="font-size:0px;">
+                                  <td align="center" width="" style="color:#3c3c3c;font-size:11px;font-family:arial;padding:10px 0 0 0;" valign="middle" class="text-align:center"><span class="text14" style="text-transform:uppercase;">Paiement </span> <br>
+                                    <span style="font-size:10px; color:#858585;" class="text14"> 100% sécurisé</span></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table>
+                        <!-- 3e COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="26%" align="left" class="responsive-table">
+                          <tr>
+                            <td style="padding:0px 0 10px 0;"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr>
+                                  <td align="center" width="100%" style="font-size:0px;padding:10px 0 0 0;"><a href="http://<%= subscription.recipient.societe.siteWebClient %>/?kalideapushmail=1&url=http://<%= subscription.recipient.societe.siteWebClient %>/MonCompte?newsletter=true" target="_blank" style="color:#3c3c3c;text-decoration:none;"><img class="picto" alt="Contactez Kalidea" src="http://cdn.kalidea.com/image/e-mailing/test/footer_picto_avantg.jpg" width="40" border="0"></a></td>
+                                </tr>
+                              </table>
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" align="right" class="responsive-table">
+                                <tr align="center" style="font-size:0px;">
+                                  <td align="center" width="" style="color:#3c3c3c;font-size:11px;font-family:arial;padding:10px 0 0 0;" valign="middle" class="text-align:center"><a href="http://<%= subscription.recipient.societe.siteWebClient %>/?kalideapushmail=1&url=http://<%= subscription.recipient.societe.siteWebClient %>/MonCompte?newsletter=true" target="_blank" style="color:#3c3c3c;text-decoration:none;"> <span style="text-transform:uppercase;" class="text14">Mes avantages</span> <br>
+                                    <span style="font-size:10px; color:#858585;" class="text14">Accèdez à mon compte</span></a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table>
+                        <!-- 4e COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="21%" align="center" class="responsive-table">
+                          <tr>
+                            <td style="padding:0px 0 10px 0;"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                <tr>
+                                  <td align="center" style="font-size:0px;padding:10px 0 0 0;"><img class="picto" src="http://cdn.kalidea.com/image/e-mailing/test/footer_picto_client.jpg" alt="Telephone" width="40"></td>
+                                </tr>
+                              </table>
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" align="right" class="responsive-table">
+                                <tr align="center" style="font-size:0px;">
+                                  <td align="center" width="" style="color:#3c3c3c;font-size:11px;font-family:arial;padding:10px 0 0 0;" valign="middle" class="text-align:center"><span class="text14" style="text-transform:uppercase;">Contactez-nous <br>
+                                    09 70 257 257</span></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+				</table>
+              <!-- FIN BLOC REASSURANCE -->
+               <!-- BLOC MENTIONS LEGALES -->
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                   <td>
+                         <table width="100%" class="" border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin:0;">
+                          <tr>
+                            <td width="100%" style="font-size:10px;color:#858585;font-family:arial;text-align:justify;padding-top:10px; border-top: 1px solid #cccccc; line-height: 14px " class="mobile-wrapper"><p style="margin-bottom:15px;">Les prix indiqués sont garantis dans la limite des stocks disponibles. Kalidea se réserve le droit de les modifier en cas d'augmentation, d'erreur typographique ou d'impression. Kalidea se réserve le droit de modifier à tout moment ces conditions générales de ventes. Les conditions applicables sont celles consultables sur <a href="http://<%= subscription.recipient.societe.siteWebClient %>/?kalideapushmail=1&url=http://<%= subscription.recipient.societe.siteWebClient %>" target="_blank" style="color:#858585;text-decoration:none;"> www.kalidea.com.</a> </p>
+                              <p style="margin:0;">Conformément à la loi du 06/01/1978, vous disposez d'un droit d'accès, de rectification et d'opposition aux informations vous concernant. Si vous ne souhaitez plus recevoir nos offres, <a style="color:#858585;" href="https://mailing.kalidea.com/webApp/frmAbonnement?id=<%=escapeUrl(reversibleCrypt(recipient.id))%>&serv=<%= subscription.service.id %>&act=desabo" _type="optout">cliquez ici.</a> </p>
+                              <p style="text-align:right;margin:0;"><a href="http://<%= subscription.recipient.societe.siteWebClient %>/?kalideapushmail=1&url=http://<%= subscription.recipient.societe.siteWebClient %>/SSO/Connexion/ContactUs?newsletter=true" target="_blank" style="color:#858585;">Contactez-nous</a></p></td>
+                          </tr>
+                          <tr>
+                            <td width="640" height="10" style="font-size:0;margin-bottom:10px;"> </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+		</table>
+				</td>
+				 </tr>
+			  </table>
+			  <!-- FIN BLOC MENTIONS LEGALES -->
+			</td>
+		</tr>
+		</table>
+	  </td>
+	</tr>
+</table>		
 <!-- FIN APPEL FOOTER -->
 </body>
 </html>
